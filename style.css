@@ -1,3 +1,53 @@
 body {
     margin: 0;
+    background-color: antiquewhite;
 }
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.sectionwrapper {
+    margin-top: 0;
+}
+
+/*---------------------WEB---------------------*/
+#web .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0 0.6rem 0.6rem;
+    margin: 0.8rem;
+
+    background-color: lightgoldenrodyellow;
+
+}
+
+#web .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+/*---------------------WEB SLUT---------------------*/
+/*---------------------ANIMATION---------------------*/
+#animation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0 0.6rem 0.6rem;
+    margin: 0.8rem;
+
+    background-color: lightgoldenrodyellow;
+
+}
+
+#animation .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+    /*---------------------ANIMATION SLUT---------------------*/
