@@ -67,15 +67,22 @@ section {
     display: flex;
     flex-wrap: wrap;
 
-    padding: 0 0.6rem 0.6rem;
-    margin: 0.8rem;
+    padding: 0.6rem 0.6rem;
+    margin: 0.6rem;
 
     background-color: hsla(345, 84%, 25%, 0.25);
 }
 
 #animation .col {
     flex-grow: 1;
-    flex-basis: 500px;
+    flex-basis: 300px;
+    padding: 0 0.6rem 0.6rem;
+    margin: 0.8rem;
+}
+
+#animation .col .image {
+    flex-grow: 1;
+    flex-basis: 200px;
 }
 
 /*---------------------ANIMATION SLUT---------------------*/
@@ -116,3 +123,43 @@ section {
 }
 
 /*--------------------------CV SLUT-----------------------*/
+/*-------------------MENU LINJEN-----------------------*/
+header {
+    position: fixed;
+    background: linear-gradient(to bottom, hotpink, transparent);
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0.8rem;
+}
+
+header nav a {
+    margin: 0.5rem;
+    padding: 0 0.5rem 0.5rem;
+}
+
+@media only screen and (min-width:600px) {
+
+    header nav {
+        flex-direction: row;
+        justify-content: center;
+        margin: 0.4rem;
+        align-items: baseline;
+
+    }
+
+    header nav a {
+        align-content: 2px solid blue;
+
+    }
+
+    header nav a:last-child {
+        align-content: none;
+    }
+}
+
+/*-------------------MENU LINJEN SLUT----------------*/
