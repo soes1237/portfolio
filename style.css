@@ -11,6 +11,15 @@ img {
     width: 100%;
 }
 
+#splash {
+    width: 110vw;
+    height: 100vh;
+    background-image: url(portfolio_splashbillede.jpg);
+    background-size: cover;
+    background-position: 80% 10%;
+    max-width: none;
+}
+
 section {
     padding: 1rem;
     margin: 0 auto;
@@ -51,8 +60,8 @@ section {
     flex-wrap: wrap;
     display: flex;
 
-    padding: 2rem;
-    margin: 2rem;
+    padding: 0 0.6rem 0.6rem;
+    margin: 0.8rem;
     background-color: hsla(345, 84%, 25%, 0.25);
 
 }
