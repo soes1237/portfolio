@@ -49,26 +49,30 @@ section {
 #ux .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    display: flex;
+
+    padding: 2rem;
+    margin: 2rem;
+    background-color: hsla(345, 84%, 25%, 0.25);
 
 }
 
 #ux .col {
-
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 500px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
-    padding: 0 0.6rem 0.6rem;
-    margin: 0.8rem;
-    background-color: hsla(345, 84%, 25%, 0.25);
 }
 
-#ux .col .image {
-    flex-grow: 1;
-    flex-basis: 100px;
+#ux_img img {
+    padding: 0vw;
+    margin: 1vw;
+    width: 12vw;
+    height: 28vw;
+    margin-left: 20vw;
+    margin-top: 2vw;
+
+
 }
 
 /*---------------------UX SLUT-----------------------*/
@@ -169,7 +173,7 @@ header nav a {
         justify-content: center;
         margin: 0.4rem;
         align-items: baseline;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1.6rem;
 
     }
@@ -186,20 +190,26 @@ header nav a {
 /*------------------FONTS--------------------*/
 h1 {
 
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     color: black;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
 
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1rem;
+    line-height: 1.4;
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.4rem;
     line-height: 1.4;
 }
 
