@@ -12,9 +12,9 @@ img {
 }
 
 #splash {
-    width: 110vw;
+    width: 100vw;
     height: 100vh;
-    background-image: url(portfolio_splashbillede.jpg);
+    background-image: url(portfolio_splash_bg.png);
     background-size: cover;
     background-position: 80% 10%;
     max-width: none;
@@ -45,7 +45,7 @@ section {
 
 #web .col {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 400px;
 
 }
 
@@ -68,7 +68,7 @@ section {
 
 #ux .col {
     flex-grow: 1;
-    flex-basis: 500px;
+    flex-basis: 400px;
 
 
 }
@@ -98,7 +98,7 @@ section {
 
 #animation .col {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 400px;
     padding: 0 0.6rem 0.6rem;
     margin: 0.8rem;
 }
@@ -152,7 +152,7 @@ section {
 
 #cv .col {
     flex-grow: 1;
-    flex-basis: 500px;
+    flex-basis: 300px;
 }
 
 /*--------------------------CV SLUT-----------------------*/
@@ -225,4 +225,20 @@ h3 {
     line-height: 1.4;
 }
 
-/*------------------FONTS slut--------------------*/
+
+a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+
+    /*------------------FONTS slut--------------------*/
+    @media screen and (max-width:300px) #splash {}
+
+    @media only screen and (min-width:600px) {
+
+        header nav {
+            flex-direction: row;
+            justify-content: center;
+            margin: 0.3rem;
+            align-items: baseline;
+        }
