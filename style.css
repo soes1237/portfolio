@@ -129,11 +129,11 @@ section {
 
 }
 
-#ux_img img {
+#ux .col img {
     padding: 0vw;
     margin: 1vw;
-    width: 15vw;
-    height: 35vw;
+    width: 18vw;
+    height: 42vw;
     margin-left: 20vw;
     margin-top: 2vw;
 
@@ -346,14 +346,6 @@ a {
     }
 
 
-
-
-
-
-
-
-
-
     /*________________Billeder indhold_________*/
     #masonry {
         column-count: 4;
@@ -377,5 +369,5 @@ a {
         display: flex;
         flex-wrap: wrap;
         margin: 0;
-        justify-content: center;
+        margin-left: 40vw;
     }
