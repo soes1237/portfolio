@@ -22,14 +22,18 @@
 <body>
     <header>
         <nav>
-            <a href="index.html#splash"> Forside</a>
-            <a href="web.html">Web</a>
-            <a href="ux.html">UX</a>
-            <a href="animation.html">Animation</a>
-            <a href="indhold.html">Indhold</a>
-            <a href="cv.html">CV</a>
+            <div id="menuknap">☰</div>
+            <ul style="list-style-type:none" id="menu" class="hidden">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="web.html">Web</a> </li>
+                <li><a href="ux.html">UX</a> </li>
+                <li><a href="animation.html">Animation</a> </li>
+                <li><a href="indhold.html">Indhold</a> </li>
+                <li><a href="cv.html">CV</a> </li>
+            </ul>
         </nav>
     </header>
+
     <section id="cv">
         <h1>CV</h1>
         <div class="sectionwrapper">
@@ -37,8 +41,37 @@
             <div class="col">
                 <h2>Om Mig</h2>
                 <p>Mit navn er Søs Birk og jeg er 21 år.<br>
-                    Jeg bor i Hvidovre sammen med min kæreste igennem 4 år, men kommer oprindeligt fra Greve. <br>
-                    Til dagligt studerer jeg multimediedesign på KEA. Ved siden af studiet arbejder jeg hos Nemlig.com' kundeservice. </p>
+                    Til dagligt bor jeg i Hvidovre sammen med min kæreste Andreas.<br>
+                    Jeg studerer Multimediedesign på KEA, hvor har fået en masse evner indefor: Adobe Parken <br>
+                    <ul>
+                        <li>
+                            <p>Adobe Parken: Photoshop, Illustrator, InDesign, XD og Premiere Pro</p>
+                        </li>
+
+                        <li>
+                            <p>HTML, CSS, Java Scripts og GitHub</p>
+                        </li>
+                    </ul>
+
+
+                    <p> I mit sabbat år arbejdede jeg som receptionist i Fitness Wolrd og som pædagogmedhjælper i en vuggestue på Vesterbro.</p>
+                    <p>
+                        Ved siden af studiet arbejder jeg hos Nemlig.com' kundeservice.Her hjælper jeg kunder med deres ordrer, leveringer og andre relevante spørgsmål som kunne opstå.
+                    </p>
+
+                    <p>Kontakt mig:</p>
+                    <ul>
+                        <li>
+                            <p>Instagram: ssbirk</p>
+                        </li>
+
+                        <li>
+                            <p>Facebook: Søs Birk</p>
+                        </li>
+                        <li>
+                            <p>Email: ssbirk98@hotmail.com</p>
+                        </li>
+                    </ul>
 
             </div>
             <div class="col"><img src="billede_af_mig.jpeg" alt="mig">
@@ -55,6 +88,7 @@
             <p> Multimediedesign - KEA - Søs Birk</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
